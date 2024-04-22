@@ -1,5 +1,13 @@
 * {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.webpage-container {
+    max-width: 970px;
     background-color: beige;
+    margin: 0 auto;
 }
 
 .dish-img {
