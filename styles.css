@@ -8,7 +8,7 @@
     max-width: 1000px;
     background-color: whitesmoke;
     margin: 0 auto;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
 
 .dish-title {
@@ -70,5 +70,53 @@
 .recipe-list {
     font-size: 28px;
     font-family: Times, 'URW Palladio L', serif;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 0;
+    margin: 4.5rem auto;
 }
 
+.webpage-title {
+    font-size: 45px;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px 0;
+    width: 300px;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+.recipe-link {
+    border: 7px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.recipe-link:hover {
+    border: 7px solid gainsboro;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.list-img {
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.recipe-link h4 {
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
