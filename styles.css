@@ -53,8 +53,21 @@
     
 }
 
+.ingredients-container h4 {
+    margin: 7px 0 2px;
+}
+
+.ingredients-container li {
+    padding: 2px 0;
+}
+
 .steps-container {
-    margin: 3rem;
+    margin: 4rem;
+}
+
+.recipe-steps > li {
+    line-height: 1.2;
+    padding: 8px 0;
 }
 
 .ingredients-title, .steps-title {
@@ -118,5 +131,9 @@ a {
 }
 
 a:visited {
+    color: inherit;
+}
+
+a:active {
     color: inherit;
 }
